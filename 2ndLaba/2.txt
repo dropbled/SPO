@@ -36,12 +36,12 @@ fi
 ./cjdroute --genconf >> cjdroute.conf
 
 #Запускаем cjdns
-echo "-------- RUN cjdns! --------"
+echo "Работаем"
 sudo ./cjdroute < cjdroute.conf
 
 #wait 20 seconds
 sleep 20
 
 #Остановка cjdns
-echo "-------- STOP cjdns! --------"
+echo "Поработали бомбезно"
 sudo killall cjdroute
